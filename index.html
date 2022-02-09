@@ -9,11 +9,21 @@
 </head>
 <body>
     <div id="root">
-
+        <!-- Testo predefinito -->
         <h1>{{message}}</h1>
 
-        <input type="text" v-model="nome">
-        <p>{{nome}}</p>
+        <!-- Input in cui scrivere qualcosa -->
+        <input type="text" v-model="giochi" placeholder="lista giochi">
+
+        
+        <div>
+            <!-- Tasto per cambiare immagine -->
+            <button @click="cambiaImmagine">Cambia Immagine</button>
+            <!-- Testo relativo all'immagine -->
+            <p>{{nome}}</p>
+        </div>
+
+        <!-- Immagine visualizzata -->
         <img :src="img" alt="">
         
         
