@@ -7,7 +7,7 @@ const app= new Vue(
         //Variabili all'interno di vue
         data:{
            message:'Il mio primo messaggio su vue!!!!',
-           img:'pic',
+           img:'img/crash-bandicoot-4-its-about-time-store-art.jpg',
         },
         
 }
