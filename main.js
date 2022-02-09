@@ -8,6 +8,7 @@ const app= new Vue(
         data:{
            message:'Il mio primo messaggio su vue!!!!',
            img:'img/crash-bandicoot-4-its-about-time-store-art.jpg',
+           nome:"",
         },
         
 }
